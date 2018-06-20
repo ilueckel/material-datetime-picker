@@ -97,6 +97,8 @@ All options are optional, including the `el`.
     // the container to append the picker. If you change this, you need to make
     // sure your element has a z-index > 0 so that it displays in front of the scrim.
     container: document.body,    
+    // Set to true if you want a 24 hour selector instead of AM/PM
+    twentyFourHours: false,
     // cosmetic classes that can be overriden
     // mostly used for styling the calendar
     styles: {
