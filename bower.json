@@ -1,12 +1,17 @@
 {
   "name": "material-datetime-picker",
   "description": "A Vanilla JS Material Design date/time picker component",
-  "main": "dist/material-datetime-picker.js",
+  "main": [
+    "dist/material-datetime-picker.js",
+    "dist/material-datetime-picker.css"
+  ],
   "authors": [
-    "Joe Whitfield-Seed <joeseed86@gmail.com>"
+    "Joe Whitfield-Seed <joeseed86@gmail.com>",
+    "Igor Lückel <info@igorlueckel.de>",
+    "snimelius"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/ripjar/material-datetime-picker",
+  "homepage": "https://github.com/ilueckel/material-datetime-picker",
   "ignore": [
     "**/.*",
     "node_modules",
